@@ -6,8 +6,7 @@ var axios = require('axios');
 var QaTouch = /** @class */ (function () {
     function QaTouch(options) {
         this.options = options;
-        //this.base = 'https://api.qatouch.com/api/v1/';
-        this.base = 'http://localhost:8000/api/v1/';
+        this.base = 'https://api.qatouch.com/api/v1/';
     }
 
     /**
