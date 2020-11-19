@@ -23,7 +23,7 @@ var QaTouch = /** @class */ (function () {
     QaTouch.prototype.publish = function (results) {
 
         let finalArray = this.addResultsForTestRun(results);
-        let endPoint = `testRunResults/status/multiple?project=${this.options.projectKey}&test_run=${this.options.testRunId}&result=${JSON.stringify(finalArray)}`;
+        let endPoint = `testRunResults/status/multiple?project=${this.options.projectKey}&test_run=${this.options.testRunId}&result=${JSON.stringify(finalArray)}&comments=Status changed by automation script from cypress.`;
 
         return axios({
             method: 'PATCH',

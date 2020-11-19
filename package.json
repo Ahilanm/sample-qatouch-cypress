@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ahilanm/sample-qatouch-cypress/issues"
   },
-  "homepage": "https://github.com/Ahilanm/sample-qatouch-cypress#readme"
+  "homepage": "https://github.com/Ahilanm/sample-qatouch-cypress#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
 }
