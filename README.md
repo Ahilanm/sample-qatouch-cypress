@@ -21,13 +21,13 @@ Add reporter to cypress.json file:
 ```Javascript
 
     ...
-    "reporter": "./qatouch-reporter/index.js",
-      "reporterOptions": {
+    "reporter": "qatouch-reporter",
+    "reporterOptions": {
         "domain" : "your-domain",
         "apiToken": "your-token",
         "projectKey": "project-key",
         "testRunId": "test-run-id"
-      },
+    },
 
 ```
 
